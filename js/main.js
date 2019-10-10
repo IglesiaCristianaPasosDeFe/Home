@@ -33,16 +33,16 @@
 	});
 
   // countdown
-  // $("#date-countdown").countdown("2018/12/7", function(event) {
+  // $("#date-countdown").countdown("2019/12/31", function(event) {
   //   $(this).text(
   //     event.strftime('%D <span class="label">days</span> %H <span class="label">hours</span> %M <span class="label">minutes</span> %S <span class="label">seconds</span>')
   //   );
   // });
 
-  $('#date-countdown').countdown('2020/10/10', function(event) {
+  $('#date-countdown').countdown('2019/12/31', function(event) {
   var $this = $(this).html(event.strftime(''
-    // + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
-    + '<span class="countdown-block"><span class="label">%d</span> días </span>'
+    // + '<span class="countdown-block"><span class="label">%w</span> semanas </span>'
+    + '<span class="countdown-block"><span class="label">%D</span> días </span>'
     + '<span class="countdown-block"><span class="label">%H</span> horas </span>'
     + '<span class="countdown-block"><span class="label">%M</span> minutos </span>'
     + '<span class="countdown-block"><span class="label">%S</span> segundos</span>'));
